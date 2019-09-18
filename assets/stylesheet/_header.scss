@@ -1,0 +1,68 @@
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}  
+.reddit-text{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    padding-left: 0.4rem;
+
+} 
+.startup-text{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    padding-left: 0.4rem;
+    padding-right: 5rem;
+
+} 
+.nav-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border: none;
+    background-color:  #F6F7F8;
+}
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+}
+.searchbox {
+    display: flex;
+    align-items: center;
+    background-color: #F6F7F8;
+    width: 32rem;
+    border-radius: 0.5rem;
+
+}
+.searchicon{
+    padding: 0.5rem;
+}
+.login{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #0079D2;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    border: 2px solid #0079D2;
+    border-radius: 5px;
+}
+.signup {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+    background-color: #0079D2;
+    padding: 0.5rem 2rem;
+    border: 2px solid #0079D2;
+    border-radius: 5px;
+    
+
+}
