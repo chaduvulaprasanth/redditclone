@@ -1,5 +1,4 @@
 var ul = document.querySelector(".ul");
-var wholeinfo = [];
 
 function display(arr){
     ul.innerHTML = arr.map(( item, index) => {
@@ -14,7 +13,7 @@ function display(arr){
     // }).join(" ");
 }
 function getapi(){
-    fetch(`http://www.reddit.com/search.json?q=startup`)
+    fetch(`http://www.reddit.com/r/startup.json`)
         .then(res => res.json())
         .then(data => display(data.data.children));
 }

@@ -1,13 +1,20 @@
 .posts{
     background-color:#DAE0E6;
+    padding-top: 3rem;
+    display: flex;
+    padding-left: 15rem;
+}
+.ul{
+    width: 50%;
 }
 .list{
     background-color: white;
-    width: 40rem;
+    width: 100%;
     border-radius: 0.3rem;
     padding: 0rem 0.5rem 3rem 2rem;
-    margin-left: 17rem;
     box-shadow: 2px 2px 6px lightgrey;
+    word-break: break-all;
+
 }
 .postedby{
     color: gray;
